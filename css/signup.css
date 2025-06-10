@@ -1,0 +1,299 @@
+.main_frame {
+  position: absolute;
+  top: 10px;
+  left: 726px;
+  height: 755px;
+  width: 800px;
+  background-color: #3838ec;
+  border-radius: 30px;
+}
+
+.inside_box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 735px;
+  width: 700px;
+  background-color: #ffffff;
+}
+
+.title {
+  position: absolute;
+  top: 100px;
+  left: 250.3px;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+
+}
+
+.title_sub {
+  position: absolute;
+  top: 150px;
+  left: 205.36px;
+  font-size: 12px;
+  color: #585656;
+  font-family: 'Arial', sans-serif;
+}
+
+.name_label {
+  position: absolute;
+  top: 300px;
+  left: 205.36px;
+  font-size: 13px;
+  color: #000000;
+  font-family: 'Arial', sans-serif;
+}
+
+.name_input {
+  position: absolute;
+  top: 550px;
+  left: 205.36px;
+  width: 295px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  padding: 5px;
+  border-color: #d5d0d0;
+  transition: border-color 0.3s ease;
+}
+
+.name_input:focus {
+  outline: none;
+  border-color: #0000ff;
+
+}
+
+.name_input:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.email_label {
+  position: absolute;
+  top: 625px;
+  left: 205.36px;
+  font-size: 13px;
+  color: #000000;
+  font-family: 'Arial', sans-serif;
+}
+
+.email_input {
+  position: absolute;
+  top: 550px;
+  left: 205.36px;
+  width: 295px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  padding: 5px;
+  border-color: #d5d0d0;
+  transition: border-color 0.3s ease;
+}
+
+.email_input:focus {
+  outline: none;
+  border-color: #0000ff;
+
+}
+
+.email_input:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.password_label {
+  position: absolute;
+  top: 505px;
+  left: 205.36px;
+  font-size: 13px;
+  color: #000000;
+  font-family: 'Arial', sans-serif;
+}
+
+.password_input {
+  position: absolute;
+  top: 530px;
+  left: 205.36px;
+  width: 295px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  padding: 5px;
+  border-color: #d5d0d0;
+  transition: border-color 0.3s ease;
+}
+
+.password_input:focus {
+  outline: none;
+  border-color: #0000ff;
+}
+
+.password_input:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkbox_input {
+  position: absolute;
+  top: 378px;
+  left: 205.36px;
+}
+
+.checkbox_label {
+  position: absolute;
+  top: 375px;
+  left: 223px;
+  font-size: 12px;
+}
+
+.forgot_password_link {
+  position: absolute;
+  top: 375px;
+  left: 381px;
+  font-size: 12px;
+  color: #0000ff;
+  text-decoration: none;
+}
+
+.login_button {
+  position: absolute;
+  top: 450px;
+  left: 205.36px;
+  width: 295px;
+  height: 30px;
+  background-color: #0000ff;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.or_text {
+  position: absolute;
+  top: 250px;
+  left: 290px;
+  font-size: 11px;
+  color: #888484;
+}
+
+.google_login_button {
+  position: absolute;
+  top: 190px;
+  left: 205.36px;
+  width: 140px;
+  height: 30px;
+  background-color: #fafafa;
+  color: #000000;
+  border-radius: 5px;
+  border: 1px solid #d5d0d0;
+  font-size: 12px;
+}
+
+.facebook_login_button {
+  position: absolute;
+  top: 190px;
+  left: 350px;
+  width: 150px;
+  height: 30px;
+  background-color: #fafafa;
+  color: #000000;
+  border-radius: 5px;
+  border: 1px solid #d5d0d0;
+  font-size: 12px;
+}
+
+.google_icon {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 7px;
+  left: 30px;
+}
+
+.facebook_icon {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 7px;
+  left: 30px;
+}
+
+.signup_link {
+  position: absolute;
+  left: 105px;
+  font-size: 10px;
+  color: #0000ff;
+  text-decoration: none;
+}
+
+.no_account_text {
+  position: absolute;
+  top: 620px;
+  left: 280px;
+  font-size: 10px;
+  color: #000000;
+}
+
+.title2 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 30px;
+  font-weight: 100px;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.title_sub2 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.login_image {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.login_image2 {
+  position: absolute;
+  top: 330px;
+  left: 450px;
+  width: 80px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.dis_1 {
+  position: absolute;
+  top: 550px;
+  left: 100px;
+  width: 600px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.logo_img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+}
