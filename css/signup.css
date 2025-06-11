@@ -48,7 +48,7 @@
 
 .name_input {
   position: absolute;
-  top: 550px;
+  top: 325px;
   left: 205.36px;
   width: 295px;
   height: 30px;
@@ -72,7 +72,7 @@
 }
 .email_label {
   position: absolute;
-  top: 625px;
+  top: 370px;
   left: 205.36px;
   font-size: 13px;
   color: #000000;
@@ -81,7 +81,7 @@
 
 .email_input {
   position: absolute;
-  top: 550px;
+  top: 395px;
   left: 205.36px;
   width: 295px;
   height: 30px;
@@ -106,7 +106,7 @@
 
 .password_label {
   position: absolute;
-  top: 505px;
+  top: 440px;
   left: 205.36px;
   font-size: 13px;
   color: #000000;
@@ -115,7 +115,7 @@
 
 .password_input {
   position: absolute;
-  top: 530px;
+  top: 465px;
   left: 205.36px;
   width: 295px;
   height: 30px;
@@ -139,13 +139,13 @@
 
 .checkbox_input {
   position: absolute;
-  top: 378px;
+  top: 510px;
   left: 205.36px;
 }
 
 .checkbox_label {
   position: absolute;
-  top: 375px;
+  top: 507px;
   left: 223px;
   font-size: 12px;
 }
@@ -161,7 +161,7 @@
 
 .login_button {
   position: absolute;
-  top: 450px;
+  top: 580px;
   left: 205.36px;
   width: 295px;
   height: 30px;
@@ -186,7 +186,7 @@
   left: 205.36px;
   width: 140px;
   height: 30px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   color: #000000;
   border-radius: 5px;
   border: 1px solid #d5d0d0;
@@ -199,7 +199,7 @@
   left: 350px;
   width: 150px;
   height: 30px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   color: #000000;
   border-radius: 5px;
   border: 1px solid #d5d0d0;
@@ -224,16 +224,17 @@
 
 .signup_link {
   position: absolute;
-  left: 105px;
+  left: 85px;
   font-size: 10px;
   color: #0000ff;
   text-decoration: none;
+  width: 100px;
 }
 
-.no_account_text {
+.have_account_text {
   position: absolute;
   top: 620px;
-  left: 280px;
+  left: 205.36px;
   font-size: 10px;
   color: #000000;
 }
